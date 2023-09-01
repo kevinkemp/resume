@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style type="text/css">
+    h5 {
+        font-weight: 600;
+    }
+    .panel-body {
+        padding: 0px;
+        margin: 15px;
+    }
+    .panel-primary > .panel-heading:hover {
+        cursor: pointer;
+    }
+    .panel {
+        background-color: gainsboro;
+    }
+    .panel .panel {
+        border: 1px solid navy;
+        background-color: lightgray;
+    }
+    .panel .panel > .panel-heading {
+        border-bottom: 1px solid navy;
+    }
+    .item > .container {
+        padding-bottom: 100px;
+    }
+    .item > div {
+        min-height: 800px;
+    }
+    .top-filler {
+        background-color: #428bca;
+        height: 250px;
+    }
+    body {
+        background-color: lightgray;
+    }
+    .carousel-caption {
+        color: black;
+    }
+    .carousel-indicators .active {
+        background-color: black;
+    }
+    </style>
+    <title>Resume: Kevin Kemp</title>
+</head>
+
+<body>
+    <div id="resume-pages" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#resume-pages" data-slide-to="0" class="active"></li>
+            <li data-target="#resume-pages" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <div>
+                    <div class="top-filler"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-offset-4 col-md-5">
+                                <h1>Hi, I'm <strong>Kevin Kemp</strong></h1>
+                                <em>I believe in <strong>simplicity, ownership, and pragmatism</strong>.</em>
+                                <br/>
+
+                                <div class="row" style="margin-top: 100px">
+                                    <div class="row">
+                                        <div class="col-md-offset-1 col-md-3">
+                                            <span>
+                                                <strong>Email</strong>
+                                            </span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <span>kmkemp11@gmail.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-offset-1 col-md-3">
+                                            <span>
+                                                <strong>Cell</strong>
+                                            </span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <span>(901) 239-1959</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-caption">
+                            My information
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container" style="padding-top: 10%">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" data-toggle="collapse" data-target="#experience-info">
+                            <h3 class="panel-title">Experience</h3>
+                        </div>
+                        <div id="experience-info" class="panel-body collapse">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <div>Senior Software Engineer, Staff Software Engineer</div>
+                                                <div>Paylocity (2017 - Present)</div>
+                                            </h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <p>This is a remote, full-stack dev lead position.  Paylocity provides human resource management software to primarily mid-sized companies (SaaS).  I work on our Benefits offering, which has 5 SCRUM teams.  My team has myself (dev lead), 5 engineers, 1 test engineer, and 1 engineering manager.  We use a variety of technologies: AWS, microservices, C#, Javascript, PowerShell, React, T-SQL, Mongo, Redis, TeamCity, Octopus, Docker, git, several message bus platforms</p>
+                                            <h5>Accomplishments:</h5>
+                                            <ul>
+                                                <li>Designed and developed integration testing framework (built on Cypress) with corresponding API's for our category (5 teams)</li>
+                                                <li>Designed and contributed to a phased approach to swap from an up-front enrollment generation model to a real-time generation model.  The result was massive reduction in writes on our highest-traffic tables and the retirement of all synchronization logic and workflows</li>
+                                                <li>Helped break up a monolith into microservices</li>
+                                                <li>Designed and implemented the interview process for our category (5 teams).  Performed 20+ interviews personally, as well as coaching other developers on the process.  Also created a seed project for the at-home project.  Hired 10 developers.</li>
+                                                <li>Due to success of process, I was asked to contribute a take-home assignment for the entire company</li>
+                                                <li>Automated release cuts across our category (5 teams)</li>
+                                                <li>Wrote hundreds/thousands of automated tests</li>
+                                                <li>Helped scale entire platform to support 2-4x growth per year</li>
+                                                <li>Helped lead efforts that have increased the percentage of customers we can support feature-wise from ~25% to ~80%</li>
+                                                <li>Presented initial concept, created/managed stories, implemented solution, and monitored/reported on metrics post release for plan year publish process reimplementation</li>
+                                                <li>Reduced plan year publishing process from 4 hours to 5 minutes in most common case</li>
+                                                <li>Reduced initial enrollment loading (most important page in our application) from 9 seconds to 2.5 seconds</li>
+                                                <li>Improved percentage of performant page loads (&lt; 2 seconds) from ~92% to ~97%</li>
+                                                <li>Managed technical debt backlog for my team including running grooming sessions and prioritizing work</li>
+                                                <li>Automated creation of audit tables and associated triggers</li>
+                                                <li>Helped with transition to microservices</li>
+                                                <li>Completed series of epics that increased productivity of internal team that delivers enrollment data to carriers by 500%</li>
+                                                <li>Wrote SpecFlow hooks and supporting API to allow automated testing for complex data conditions</li>
+                                                <li>Helped write integration testing framework that mimics message queue behavior along with hundreds of tests</li>
+                                                <li>Modified automation suite (thousands of tests) to run in parallel, reducing runtime by 75%+ and allowing it to complete overnight</li>
+                                                <li>Wrote layer on top of Redis which acts as a local distributed cache to support automation suite</li>
+                                                <li>Helped implement sagas, allowing us to scale our message bus infrastructure horizontally (50%+ reduction in runtime for overnight job)</li>
+                                                <li>Helped stand up .NET Core APIs that offloads some heavy processing during enrollment loading to improve performance</li>
+                                                <li>Mentored team of developers</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<div class="col-md-6">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <div>Senior Software Engineer</div>
+                                                <div>FNC / Core Logic (2015 - 2017)</div>
+                                            </h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <p>This is a remote, full-stack developer position.  FNC is primarily a leader in real-estate appraisal management software.  The project that I was hired to lead is unifying 11 major clients' individual implementations of our Collateral Management System (together accounting for more than half of company revenue) into a unified platform (they're essentially forks that have diverged over a period of many years but share many of the same features, implemented differently).  FNC uses a SaaS business model.  Technologies primarily used include C#, ASP.NET MVC, Jquery, KnockoutJS, SignalR, RequireJS, T-SQL, grunt, babel and many more.</p>
+                                            <h5>Projects Delivered:</h5>
+                                            <ul>
+                                                <li>Lightweight Collateral Management System</li>
+                                                <li>Unified Collateral Management System</li>
+                                            </ul>
+                                            <h5>Accomplishments:</h5>
+                                            <ul>
+                                                <li>Created a plan on how best to increase code-reuse while still maintaining the ability to have client-specific features</li>
+                                                <li>During research, created several prototypes that I open-sourced (<a href="https://github.com/kevinkemp/SharedWebComponents" target="_blank">here</a> and <a href="https://github.com/kevinkemp/SharedWebComponentsMef" target="_blank">here</a>)</li>
+                                                <li>Won company-wide Forge contest (2 winners from 19 teams)</li>
+                                                <li>Wrote a post for FNC's blog</li>
+                                                <li>Was chosen by my manager to mentor a new hire</li>
+                                                <li>Modified our database scripts so that they could be published to an empty or pre-existing instance</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <div>Software Engineer</div>
+                                                <div>ServiceU / Active Network (2012 - 2015)</div>
+                                            </h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <p>This is a remote devops, full-stack developer position. Heavy SCRUM team of about 8 developers split into 2 SCRUM teams. Heavy use of C#, ASP.NET MVC, JQuery, KnockoutJS, T-SQL. Our core product is online registrations with an event infrastructure. SaaS business model. Continuous Integration with dark feature switching.</p>
+                                            <h5>Projects Delivered:</h5>
+                                            <ul>
+                                                <li>Developed theming solution for admins to design their own themes for their end users</li>
+                                                <li>Redesigned menu for admin site for use with pages spanning ASP.NET MVC, Web Forms, and classic ASP</li>
+                                                <li>Redesigned core product, Event Builder, which is backwards compatible with old system and notably uses a draft system and reduces the average time to create an event by more than 50%</li>
+                                                <li>Worked with remote team to help them implement Activities 2.0 project</li>
+                                                <li>Improved low adoption WPF application whose purpose is to scan contributions (cash, check, etc) into our system</li>
+                                                <li>Implemented event registrations (with registration forms) which are backwards compatible with the previous system and added the ability to register multiple people at a time</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <div>Software Developer</div>
+                                                <div>SAIC (2007 - 2012)</div>
+                                            </h4>
+                                        </div>
+                                        <div class="panel-body">
+                                            <p>This is an on-site developer position.  Our client was the U.S. Navy. Lead maintainer/developer (took over in Spring 2008) for a java system whose main purposes include</p>
+                                            <ul>
+                                                <li>Importing data from other systems via CRUD, spreadsheets, csv</li>
+                                                <li>Producing reports programatically using xslt</li>
+                                                <li>Managing the lifecycle of selection boards (groups of sailors who are voted for promotion together). The reports have very high visibility, some being signed by Congress</li>
+                                            </ul>
+                                            <h5>Projects Delivered:</h5>
+                                            <ul>
+                                                <li>Java applet (Swing) that displays relevant documents/information across 6 screens that is used to vote Enlisted sailors</li>
+                                                <li>Flex application to replace a COTS client. Its main purpose is to view and edit metadata for documents from our content management system. We set up a Java web service to this end</li>
+                                                <li>Windows service whose job is to periodically gather sets of data from our VM infrastructure</li>
+                                                <li>Created the infrastructure that our team used for testing in C# to save time writing new tests</li>
+                                                <li>Rewrote a document entry (OCR) application built on top of COTS (Kofax), written in WPF. I built many custom panels (can be plugged into Kofax), our document rejection UI, and a couple standalone supporting apps</li>
+                                                <li>Web forms application whose main purpose is to manage the possible punishments for sailors</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" data-toggle="collapse" data-target="#side-projects-info">
+                            <h3 class="panel-title">Other Projects</h3>
+                        </div>
+                        <div id="side-projects-info" class="panel-body collapse">
+                            <ul>
+                                <li>A cryptocurrency trading bot written in nodejs (<a href="https://drive.google.com/file/d/1-MgF_clEF3ULQPhV-WboL2SNpksEO6qK" target="_blank">overview</a>)</li>
+                                <li>A logic game to learn about logical fallacies written in React (private repo - can show on demand)</li>
+                                <li>NCAA Football game simulator written in C# (<a href="https://drive.google.com/open?id=0BzvzZtanqhjkTUhHVU8tZUppLVU" target="_blank">overview</a>)</li>
+                                <li>NCAA Football player generator written in C# (private repo - can show on demand)</li>
+                                <li>NCAA Football recruiting minigame written in C# (private repo - can show on demand)</li>
+                                <li>Mobile quote generation solution for blinds dealers utilizing Angular, NodeJS, Bootstrap, etc (<a href="https://drive.google.com/open?id=0BzvzZtanqhjkcEptS2hGaS0zWm8" target="_blank">overview</a>)</li>
+                                <li>A custom recruiting tool for Gridiron Dynasty written in C#, built in a week (private repo - can show on demand)</li>
+                                <li>A collection of TamperMonkey scripts to improve Gridiron Dynasty UI (<a href="https://drive.google.com/folderview?id=0BzvzZtanqhjkb2hFdUtkaDZCX2s&usp=drive_web" target="_blank">google drive</a>)</li>
+                                <li>Google Map integration for local non profit built in a day (no longer active)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" data-toggle="collapse" data-target="#links-info">
+                            <h3 class="panel-title">Profile Links</h3>
+                        </div>
+                        <div id="links-info" class="panel-body collapse">
+                            <p><a href="http://stackoverflow.com/users/725957/kmkemp" target="_blank">Stack Overflow</a></p>
+                            <p><a href="https://github.com/kevinkemp" target="_blank">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" data-toggle="collapse" data-target="#education-info">
+                            <h3 class="panel-title">Education</h3>
+                        </div>
+                        <div id="education-info" class="panel-body collapse">
+                            <p>BS Computer Science, University of Memphis 2003-2007</p>
+                            <ul>
+                                <li>Attended with full academic scholarship</li>
+                                <li>One of two undergraduates selected to teach at local high schools as part of a fellowship</li>
+                                <li>Math tutor for 2 semesters</li>
+                                <li>Graduated in 4 years</li>
+                                <li>GPA: 3.35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" data-toggle="collapse" data-target="#references-info">
+                            <h3 class="panel-title">References</h3>
+                        </div>
+                        <div id="references-info" class="panel-body collapse">
+                            <p>Some available via <a href="https://www.linkedin.com/in/kevin-kemp-79bb7830" target="_blank">LinkedIn</a></p>
+                            <p>More available upon request</p>
+                        </div>
+                    </div>
+                    <div class="carousel-caption">
+                        Why you should make me an offer
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#resume-pages" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#resume-pages" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('.carousel').carousel({
+            interval: false
+        });
+    });
+    </script>
+</body>
+
+</html>
